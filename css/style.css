@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap');
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.con-bg-1 {
+    background-color: rgb(255, 237, 237);
+}
+
+.banner-text {
+    color: rgb(37, 39, 77);
+    font-size: 50px;
+    font-weight: 750;
+}
+
+h1 {
+    color: rgb(37, 39, 77);
+}
+
+.banner-text {
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 6s infinite alternate;
+    border-right: 1px solid rgb(37, 39, 77);
+}
+
+@keyframes text {
+    0% {
+        width: 0ch;
+    }
+    50% {
+        width: 12ch;
+    }
+}
+
+span {
+    color: #7DCD85;
+}
+
+.orng {
+    color: rgb(250, 128, 76);
+}
+
+.oliv {
+    color: rgb(164, 188, 70);
+}
+
+.my-btn {
+    background-color: rgb(37, 39, 77);
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    display: inline;
+}
+
+.img-section {
+    margin: 10px;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.c-border {
+    border-radius: 20px;
+}
+
+.c-img {
+    padding: 30px;
+}
+
+.price {
+    font-size: 30px;
+}
+
+h5 {
+    color: rgb(61, 63, 105);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.info-border {
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(255, 237, 237);
+}
